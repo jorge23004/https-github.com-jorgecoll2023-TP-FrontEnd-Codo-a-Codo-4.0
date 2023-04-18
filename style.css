@@ -6,6 +6,10 @@ body {
     padding:3rem;          
 }
 
+.nav-link {
+
+}
+
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
@@ -139,8 +143,9 @@ footer .navbar{
     #0a4674, #064e74, #1a5c8a, #085fab) !important; 
 }
 
-.nav-item {
+.footer-item {
     padding: 1rem 2rem !important;
+    
 }
 
 .nav-item .preguntas, .terminos {
@@ -148,7 +153,7 @@ footer .navbar{
     text-align: center;
 }
 
-.nav-link{
+.footer-link{
     color: white !important;
     font-size: 14px !important;
     text-align: center;
