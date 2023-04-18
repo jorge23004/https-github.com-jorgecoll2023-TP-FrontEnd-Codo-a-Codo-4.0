@@ -1,0 +1,192 @@
+body {
+    padding: 0;
+}
+
+.navbar {
+    padding:3rem;          
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-verde {
+    color: rgb(15, 169, 15) !important;
+}
+
+.card-superpuesta {
+    width: 100vw;
+}
+
+.card-superpuesta img{
+    filter: brightness(40%);
+    height: 10% !important;
+}
+
+.card-img-overlay {
+    padding-right: 8.5rem !important;
+    padding-top: 30% !important;
+    padding-left: 45% !important;
+    height: max-content;
+}
+
+.card-title1, .card-text1, .btn-outline {
+    color: white;
+}
+
+.card-text1 {
+    font-size: 1rem;
+    padding-top: 1.5rem;
+}
+
+.card-title1 {
+    font-size: 2rem;
+}
+
+.btn-success{
+    background: rgb(14, 151, 14) !important;
+}
+
+.titulo-oradores div{
+    font-size: 14px;
+    text-align: center;
+}
+
+.titulo-oradores {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.card-group {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-oradores {
+    margin-top: 20px;
+    padding: 1rem 10rem;
+}
+
+.container-oradores img{
+    position: relative;
+    object-fit: cover;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-oradores {
+    text-align: center;
+}
+
+.card-honolulu {
+    width: 100vw;
+}
+
+.honolulu-text{
+    font-size: 12px;
+    color: white;
+}
+
+.honolulu-text .btn {
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 5px;
+} 
+
+.convocatoria-oradores{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.div-orador{
+    font-size: 14px;
+}
+
+.text-convocatoria{
+    font-size: 13px;
+}
+
+.formulario{
+    padding-top: 5px;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.texto-area{
+    font-size: 12px;
+}
+
+.formulario button {
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    background-color: #7fc33b !important;
+    color: whitesmoke;
+}
+
+footer {
+    padding-top: 15px;
+}
+
+footer .navbar{
+    background-image: linear-gradient(to right, #1a4169,
+    #0a4674, #064e74, #1a5c8a, #085fab) !important; 
+}
+
+.nav-item {
+    padding: 1rem 2rem !important;
+}
+
+.nav-item .preguntas, .terminos {
+    padding-top: 0.2rem !important;
+    text-align: center;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 14px !important;
+    text-align: center;
+    justify-items: center;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 767px) {
+
+    .tarjeta {
+        padding-right: 8.5rem !important;
+        max-height: 50vh;
+        padding-left: 40vw  !important;
+        font-size: 0.5rem;
+    }
+
+    .card-img-overlay {
+        padding-right: 1.5rem !important;
+        padding-top: 5% !important;
+        padding-left: 2% !important;
+        height: max-content;
+    }
+
+    .card-text1 {
+        font-size: 1rem;
+        padding-top: 0.7rem;
+    }
+    
+    .card-title1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .container-oradores {
+        margin-top: 20px;
+        padding: 1rem 2rem;
+    }
+}
