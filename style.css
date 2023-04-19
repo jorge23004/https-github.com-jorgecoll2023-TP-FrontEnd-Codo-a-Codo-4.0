@@ -172,6 +172,7 @@ footer .navbar{
         padding-top: 5% !important;
         padding-left: 2% !important;
         height: max-content;
+        max-height: 60%;
     }
 
     .card-text1 {
