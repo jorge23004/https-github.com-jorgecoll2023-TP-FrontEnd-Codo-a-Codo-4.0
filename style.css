@@ -20,14 +20,14 @@ body {
 }
 
 .card-superpuesta img{
-    filter: brightness(40%);
+    filter: brightness(30%);
     height: 10% !important;
 }
 
 .card-img-overlay {
     padding-right: 8.5rem !important;
     padding-top: 20% !important;
-    padding-left: 45% !important;
+    padding-left: 48% !important;
     height: max-content;
 }
 
