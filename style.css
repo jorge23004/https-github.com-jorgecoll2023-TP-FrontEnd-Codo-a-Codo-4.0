@@ -16,12 +16,14 @@ body {
 }
 
 .card-superpuesta {
-    width: 100vw;
+    width: 100vw;  
 }
 
 .card-superpuesta img{
     filter: brightness(30%);
     height: 10% !important;
+    transition-duration: 0.5s!important;
+    transition-delay: 0.3s !important;
 }
 
 .card-img-overlay {
