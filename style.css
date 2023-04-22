@@ -136,31 +136,29 @@ footer {
     padding-top: 15px;
 }
 
-footer .navbar{
+.footer-lista{
     background-image: linear-gradient(to right, #1a4169,
-    #0a4674, #064e74, #1a5c8a, #085fab) !important; 
-}
-
-.footer-item {
-    padding: 1rem 2rem !important;
-    text-align: center;
-    align-items: center;
-}
-
-.nav-item .preguntas, .terminos {
-    padding-top: 0.2rem !important;
-    text-align: center;
-    align-items: center;
+    #0a4674, #064e74, #1a5c8a, #085fab); 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 6rem;
 }
 
 .footer-link{
     color: white !important;
     font-size: 14px !important;
+    padding: 1.5rem 2.5rem !important;
+    text-align: center !important; 
 }
 
 /* Responsive */
 
 @media screen and (max-width: 767px) {
+
+    .navbar{
+        position: static !important;
+    }
 
     .tarjeta {
         padding-right: 8.5rem !important;
@@ -171,7 +169,6 @@ footer .navbar{
 
     .card-img-overlay {
         padding-right: 1.5rem !important;
-        padding-top: 5% !important;
         padding-left: 2% !important;
         height: max-content;
         max-height: 60%;
