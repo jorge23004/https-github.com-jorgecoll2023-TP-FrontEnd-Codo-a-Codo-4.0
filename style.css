@@ -1,8 +1,3 @@
-body {
-    padding: 0;
-    max-width: 100vw;
-}
-
 .navbar {
     padding:3rem;        
 }
@@ -18,10 +13,6 @@ body {
 
 .card-superpuesta img{
     filter: brightness(30%);
-    height: 10% !important;
-    transition-duration: 0.5s!important;
-    transition-delay: 0.3s !important;
-    width: 100vw !important;
 }
 
 .card-img-overlay {
@@ -58,23 +49,9 @@ body {
     padding-top: 1.5rem;
 }
 
-.card-group {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .container-oradores {
     margin-top: 20px;
     padding: 1rem 10rem;
-}
-
-.container-oradores img{
-    position: relative;
-    object-fit: cover;
-    margin: 0;
 }
 
 .card-text {
@@ -115,7 +92,6 @@ body {
 
 .formulario{
     padding-top: 5px;
-    position: relative;
     margin: 0 auto;
     width: 50%;
 }
