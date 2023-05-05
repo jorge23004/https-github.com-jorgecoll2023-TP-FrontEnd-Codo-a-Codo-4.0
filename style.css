@@ -1,5 +1,5 @@
 .navbar {
-    padding:3rem;        
+    padding: 3rem;        
 }
 
 .navbar-collapse {
@@ -56,14 +56,6 @@
 
 .card-text {
     font-size: 14px;
-}
-
-.card-oradores {
-    text-align: center;
-}
-
-.card-honolulu {
-    width: 100%;
 }
 
 .honolulu-text{
@@ -125,7 +117,6 @@ footer {
     color: white !important;
     font-size: 14px !important;
     padding: 1.5rem 2.5rem !important;
-    text-align: center !important; 
 }
 
 /* Responsive */
