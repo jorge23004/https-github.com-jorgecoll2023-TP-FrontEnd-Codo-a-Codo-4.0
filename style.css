@@ -207,7 +207,9 @@ footer {
     font-size: 15px !important;
 }
 
+
 /* Responsive */
+
 
 @media screen and (max-width: 910px) {
 
@@ -249,6 +251,10 @@ footer {
 
     .footer-lista{
         padding: 0 2rem;
+    }
+
+    .footer-link{
+        padding: 1.5rem 1.5rem !important;
     }
 }
 
