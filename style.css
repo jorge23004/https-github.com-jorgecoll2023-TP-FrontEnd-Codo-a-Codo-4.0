@@ -138,6 +138,10 @@ footer {
 
 /* Página Tickets */
 
+.link-verde-ticket{
+    color: #9de853 !important; 
+}
+
 .row-group{
     align-items: center;
     padding: 0 10%;
@@ -198,6 +202,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.footer-ticket .footer-link{
+    font-size: 15px !important;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 767px) {
@@ -232,9 +241,19 @@ footer {
         font-size: 1.5rem;
     }
 
+    .formulario{
+        padding-top: 5px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
     .grupo-tickets{
         margin-top: 2rem;
     
+    }
+
+    .formulario-tickets{
+        width: 90%;
     }
 
     .footer-ticket{
