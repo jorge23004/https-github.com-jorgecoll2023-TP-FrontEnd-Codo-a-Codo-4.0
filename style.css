@@ -209,7 +209,7 @@ footer {
 
 /* Responsive */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 910px) {
 
     .navbar{
         position: static !important;
@@ -246,6 +246,13 @@ footer {
         margin: 0 auto;
         width: 90%;
     }
+
+    .footer-lista{
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
 
     .grupo-tickets{
         margin-top: 2rem;
