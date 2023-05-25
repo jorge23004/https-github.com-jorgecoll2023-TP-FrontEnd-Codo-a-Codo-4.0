@@ -197,7 +197,6 @@ footer {
 }
 
 .footer-ticket{
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -279,5 +278,12 @@ footer {
     .container-oradores {
         margin-top: 20px;
         padding: 1rem 2rem;
+    }
+}
+
+@media screen and (min-width: 848px) and (min-height: 1050px){
+
+    .footer-ticket{
+        position: fixed;
     }
 }
