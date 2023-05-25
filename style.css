@@ -281,7 +281,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 848px) and (min-height: 881px){
+@media screen and (min-width: 848px) and (min-height: 805px){
 
     .footer-ticket{
         position: fixed;
