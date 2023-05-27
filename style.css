@@ -31,6 +31,7 @@
 .card-text1 {
     font-size: 1rem;
     padding-top: 1.5rem;
+    text-align: justify;
 }
 
 .card-title1 {
@@ -261,8 +262,20 @@ footer {
 
     .grupo-tickets{
         margin-top: 2rem;
-    
     }
+
+    .card-text {
+        text-align: center;
+    }
+
+    .honolulu-text{
+        text-align: center;
+    }
+    
+    .honolulu-text .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    } 
 
     .formulario-tickets{
         width: 90%;
