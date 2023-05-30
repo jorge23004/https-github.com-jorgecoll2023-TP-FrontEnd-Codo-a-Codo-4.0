@@ -10,7 +10,7 @@ let categoria = document.getElementById("select-tickets").value;
 const valor = 200;
 valorTotal = 0;
 
-    if (cantidad > 0 && categoria > 0 && categoria <= 3) {
+    if (cantidad > 0 && categoria > 0 && categoria <= 4) {
 
         /* El valor 1 del select representa al primer elemento Estudiante */
         if (categoria == 1) {
@@ -26,7 +26,11 @@ valorTotal = 0;
         }else if (categoria == 3) {
             valorEntrada = valor * 0.85;
             valorTotal = valorEntrada * cantidad;
-        } 
+        
+        } else if (categoria == 4) {
+            valorEntrada = valor;
+            valorTotal = valorEntrada * cantidad;
+        }    
     } else {
 
         /* alerta personalizada de la librería SweetAlert2 */
